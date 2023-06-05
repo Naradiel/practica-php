@@ -1,0 +1,55 @@
+
+/* Estilo general de la página y el formulario */
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-size: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #c4b8c9;
+}
+
+.formulario {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f5f3f7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h2 {
+  color: #563d7c;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.campos-form {
+  margin-bottom: 20px;
+}
+
+.campos-form label {
+  color: #8a63a8;
+}
+
+.campos-form input {
+  background-color: #eeeeee;
+}
+
+.campos-form input:focus {
+  background-color: #f8f8f8;
+}
+
+.btn-primary {
+  background-color: #8a63a8;
+  border-color: #8a63a8;
+}
+
+.btn-primary:hover {
+  background-color: #7c5593;
+  border-color: #7c5593;
+}
