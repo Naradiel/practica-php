@@ -14,13 +14,13 @@ En esta práctica desarrollaremos un formulario en PHP a partir de la BBDD desar
       ```
 2. **Accede al directorio del repositorio:** Navega al directorio del repositorio clonado ejecutando el siguiente comando:
    ```sh
-   cd practica-mysql
+   cd practica-php
       ```
 3. **Importa el archivo .sql:** Asegúrate de tener acceso al servidor de bases de datos MySQL. Ejecuta el siguiente comando para importar el archivo usuario.sql en tu servidor:
    ```sh
    mysql -u <USUARIO> -p <NOMBRE_DE_LA_BASE_DE_DATOS> < usuario.sql
       ```
-    Reemplaza <USUARIO> con el nombre de usuario de tu base de datos y <NOMBRE_DE_LA_BASE_DE_DATOS> con el nombre de la base de datos en la que deseas importar el archivo .sql. 
+    Reemplaza `<USUARIO>` con el nombre de usuario de tu base de datos y `<NOMBRE_DE_LA_BASE_DE_DATOS>` con el nombre de la base de datos en la que deseas importar el archivo .sql. 
 
 4. **Verifica la importación:** Una vez completada la importación, puedes verificar si el archivo .sql se ha importado correctamente en tu base de datos MySQL.
   
@@ -31,6 +31,8 @@ En esta práctica desarrollaremos un formulario en PHP a partir de la BBDD desar
     $password = "tu-contraseña";
     $dbname = "nombre-de-tu-base-de-datos";
       ```
+   Asegúrate de reemplazar `tu-usuario`, `tu-contraseña` y `nombre-de-tu-base-de-datos` con la información correcta correspondiente a tu entorno de desarrollo y configuración de MySQL.
+   
 6. **Abre el proyecto en tu servidor web local:**
     - Copia los archivos del formulario a la carpeta de tu servidor web local (por ejemplo, `htdocs` si estás utilizando XAMPP).
     - Accede al formulario en tu navegador web utilizando la URL correspondiente (por ejemplo, `http://localhost/index.php`).
