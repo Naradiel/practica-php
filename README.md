@@ -10,7 +10,7 @@ En esta práctica desarrollaremos un formulario en PHP a partir de la BBDD desar
 ## Instrucciones de instalación
 1. **Clona** este repositorio:
    ```sh
-   git clone https://github.com/Naradiel/practica-mysql.git
+   git clone https://github.com/Naradiel/practica-php.git
       ```
 2. **Accede al directorio del repositorio:** Navega al directorio del repositorio clonado ejecutando el siguiente comando:
    ```sh
